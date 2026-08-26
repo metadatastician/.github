@@ -1,0 +1,9 @@
+title: "[Ideas] "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: body
+    attributes:
+      label: Ideas
+    validations:
+      required: true

@@ -1,0 +1,19 @@
+name: ✨ Feature request
+description: Suggest something this project should be able to do
+title: "feat: "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: The problem
+      description: What are you unable to do today? Describe the need, not the solution.
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: What you have in mind
+      description: Optional. If you already have a shape in mind, describe it.
+    validations:
+      required: false

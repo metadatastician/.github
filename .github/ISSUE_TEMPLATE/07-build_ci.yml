@@ -1,0 +1,22 @@
+name: 🔧 Build / CI / tooling
+description: Something in the build, CI, or developer tooling is broken
+title: "ci: "
+labels: ["ci"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What is failing
+      description: Include the failing command or workflow name.
+    validations:
+      required: true
+  - type: textarea
+    id: output
+    attributes:
+      label: Relevant output
+      description: |
+        Paste the error. If a workflow died with no logs at all, say that
+        explicitly — it is a meaningful symptom, not a missing detail.
+      render: shell
+    validations:
+      required: false

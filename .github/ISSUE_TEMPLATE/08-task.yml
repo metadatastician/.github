@@ -1,0 +1,11 @@
+name: 📋 Task
+description: Anything that does not fit the other templates
+title: "task: "
+labels: []
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What needs doing
+    validations:
+      required: true

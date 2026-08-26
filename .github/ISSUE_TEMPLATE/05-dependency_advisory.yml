@@ -1,0 +1,34 @@
+name: 🛡️ Dependency advisory
+description: A published CVE / GHSA / RUSTSEC affecting a dependency
+title: "security(deps): "
+labels: ["dependencies", "security"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **This is for advisories that are already public.**
+
+        For a vulnerability in *this* project's own code, do not open an issue —
+        see the repository's Security tab or `SECURITY.md`.
+  - type: input
+    id: advisory
+    attributes:
+      label: Advisory ID
+      placeholder: CVE-2026-xxxxx / GHSA-xxxx / RUSTSEC-2026-xxxx
+    validations:
+      required: true
+  - type: input
+    id: package
+    attributes:
+      label: Package and affected version range
+    validations:
+      required: true
+  - type: textarea
+    id: impact
+    attributes:
+      label: Does it actually reach this project?
+      description: |
+        A dependency being vulnerable is not the same as this project being
+        exploitable. If you know which is the case, say so.
+    validations:
+      required: false

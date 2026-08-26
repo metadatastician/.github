@@ -1,0 +1,8 @@
+title: "[Show and tell] "
+body:
+  - type: textarea
+    id: body
+    attributes:
+      label: Show and tell
+    validations:
+      required: true

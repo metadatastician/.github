@@ -1,0 +1,24 @@
+name: 🪞 Claim drift
+description: A README, doc or status file asserts something the code does not do
+title: "drift: "
+labels: ["documentation", "tech-debt"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Documentation that overstates what the code does is treated as a defect
+        here, not a nitpick. Thank you for catching it.
+  - type: input
+    id: claim
+    attributes:
+      label: The claim
+      description: Quote it, and say where it appears.
+    validations:
+      required: true
+  - type: textarea
+    id: reality
+    attributes:
+      label: What is actually true
+      description: How did you establish it? Naming the check makes this actionable.
+    validations:
+      required: true

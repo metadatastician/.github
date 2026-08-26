@@ -1,0 +1,29 @@
+name: 🐛 Bug report
+description: Something behaves differently from how it is documented or intended
+title: "bug: "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you did, and what happened instead of what you expected.
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Reproduction
+      description: The smallest set of steps that shows the problem.
+      placeholder: |
+        1. ...
+        2. ...
+    validations:
+      required: true
+  - type: textarea
+    id: env
+    attributes:
+      label: Environment
+      description: OS, toolchain version, and the repository commit if you know it.
+    validations:
+      required: false

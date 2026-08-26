@@ -1,0 +1,8 @@
+title: "[Announcements] "
+body:
+  - type: textarea
+    id: body
+    attributes:
+      label: Announcements
+    validations:
+      required: true

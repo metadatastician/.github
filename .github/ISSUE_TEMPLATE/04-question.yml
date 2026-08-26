@@ -1,0 +1,18 @@
+name: ❓ Question
+description: Ask about usage or intent
+title: "question: "
+labels: ["question"]
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question
+    validations:
+      required: true
+  - type: textarea
+    id: tried
+    attributes:
+      label: What you have already tried or read
+      description: Optional, but it usually gets you a better answer.
+    validations:
+      required: false
