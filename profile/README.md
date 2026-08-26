@@ -1,3 +1,8 @@
+<!--
+SPDX-License-Identifier: CC-BY-SA-4.0
+SPDX-FileCopyrightText: 2026 Jonathan D.A. Jewell <sudo@metadatastician.art>
+-->
+
 # The Metadatastician
 
 **Metadata as an art of context.** We build experimental tools for reading the hidden
