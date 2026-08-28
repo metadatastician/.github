@@ -1,0 +1,11 @@
+# SPDX-License-Identifier: MPL-2.0
+# Copyright (c) Jonathan D.A. Jewell <sudo@metadatastician.art>
+#
+# Default funding links for metadatastician/* (inherited by repos without their own).
+# Same canonical estate handles as hyperpolymath/* -- the orgs share one maintainer.
+# A repository may override this with its own .github/FUNDING.yml.
+# See: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/displaying-a-sponsor-button-in-your-repository
+
+github: hyperpolymath
+ko_fi: hyperpolymath
+liberapay: hyperpolymath
